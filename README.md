@@ -5,3 +5,4 @@ Question 4:
   T flip flops are rising edge
   First D flip flop for the X waveform is high level triggered.
   For the second D flip flop for Y waveform we use falling edge triggered.
+  The logisim and vivado file are uploaded. In the vivado file we can get the actual waveform.
