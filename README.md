@@ -1,22 +1,20 @@
-# Assignment_submission_iris_labs
-This repositor contains the assignment for the question answers 
+# What is VLSI Design Flow?
+   It provides a structured framework that helps designers navigate through different stages of the design process, from concept to production.
+   One of the primary objectives of the design flow is to minimize the design cycle time while maximizing the quality and reliability of the final product. 
 
-For Question 1:
-In this question i have used the concept of the universal shift reqisters with only the function of rotate right and for the load option.
-This I have taken only 4 bit number and can be extended for further bits. The verilog file and the logisim files will be made under the question 1 branch.
-The verilog code will be added as text file.
+# Importance of Design Flow in VLSI
+   It provides a systematic and structured approach that ensures consistency and repeatability in the design process.
+   Design flow helps in optimizing the design for various parameters such as performance, area, power consumption, and timing.
 
-For Question 2:
-In this question i have made the files as the assignment_2 which contains both the mealy and moore machine for the sequence detector. The verilog code will also be added as seperate text file.
+# Steps of the VLSI Design Flow
+  1. Specification:They gather information regarding the desired functionality, performance targets, power constraints, and any other specific requirements.
+  2. Design Entry:Once the specifications are defined, designers begin the design entry phase, where they create a high-level representation of the circuit using hardware description languages (HDLs) such as Verilog or VHDL. 
+  3. Synthesis:In the synthesis stage, the high-level design is transformed into a gate-level representation using synthesis tools.
+  4. Verification:Various techniques such as functional simulation, formal verification, and timing analysis are employed to validate the design.
+  5. Layout:This involves placing the components on the chip and routing the interconnections between them and they ensure a maximum optimum placements.
+  6.  Fabrication: This involves processes like photolithography, etching, and deposition.
 
-For Question 3:
-The circuit diagram and the circuit will be made on the logisim and will be submitted as question 3.
+# Kinds of VLSI Design Flow
+  1. Top-Down Design Flow:They begin by defining the overall system functionality and then decompose it into smaller modules or blocks. These blocks are further refined, and the process continues until the design is at the gate-level representation. 
+  2. Bottom-Up Design Flow:Designers begin by creating the lowest-level modules and then incrementally integrate them to higher-level modules. This iterative process continues until the entire system is constructed. 
 
-For Question 4:
-The circuit diagram in logisim and the circuit generated from the vivado will be uploaded for both x and y.
-
-For Question 5:
-There was a error occured while running the linter and the code is uploaded in the Question 2 was running fine on vivado and it aslo generaded a synthesis design but was unable do it linter. The details are uploaded in the Question 5 sub Branch.
-
-For Question 6:
-A text file is uploaded for the Explanation for VLSI design flow.
